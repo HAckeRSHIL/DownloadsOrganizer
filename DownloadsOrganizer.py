@@ -3,21 +3,24 @@
 Created on Fri May  8 18:58:00 2020
 
 @author: HAckeRSHIL
+
+If you want any changes or suggestion ping me on. Any Feedback will be appericiated.
 LinkedIn: HAckeRSHIL
 Instagram : HAckeRSHIL
 Twitter : HAckeRSHIL
 GitHub : HAckeRSHIL
+Email : hackwithharshil@gmail.com
 """
 
 import os
 import shutil
-# Dictonary to find the files generalized class by its extention YOU can edit this too according to your preferance
+# Dictonary to find the files generalized class by its extention YOU can edit this too according to your preference
 classifier={
-        "Data":['csv','dat','ged','key','keychain','sdf','xml','vcf'],
+        "Data":['csv','dat','ged','key','keychain','sdf','xml','vcf','fasta'],
         "Documents" : ['pdf','doc','docx','log','msg','odt','pages','rtf','tex','txt','wpd','wps','ods','ppt','pptx'],
         "Audio":['aif','iif','m3u','m4a','mid','mp3','mpa','wav','wma'],
-        "Video":['avi','flv','m4v','mov','mp4','mpg','rm','srt','swf','vob','wmv','asf','3g2','3gp'],
-        "Images":['bmp','dds','gif','heic','jpg','png','psd','pspimage','tga','thm','tif','tiff','yuv','ai','eps','svg'],
+        "Video":['avi','flv','m4v','mov','mp4','mpg','rm','srt','swf','vob','wmv','asf','3g2','3gp','mkv'],
+        "Images":['jpeg','bmp','dds','gif','heic','jpg','png','psd','pspimage','tga','thm','tif','tiff','yuv','ai','eps','svg'],
         "Database":['accdb','db','dbf','mdb','pdb','sql'],
         "Executable":['apk','app','bat','cgi','com','exe','gadget','jar','wsf'],
         "Web files":['asp','aspx','css','html','htm','cer','cfm','csr','dcr','js','jsp','php','rss','xhtml'],
@@ -55,7 +58,7 @@ def classify():
         # Only process the entries which are files
           if entry.is_file():
             #finding extention through filename
-            extention = os.path.splitext(entry.name)[1][1:]
+            extention = os.path.splitext(entry.name)[1][1:].lower()
             #calling the getclass function which return its generalized form name (dictonary)
             classfolder = getclass(extention)
             #src = current path of file
