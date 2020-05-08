@@ -16,6 +16,6 @@ The files will be classified into these folders. (You can customize this by chan
 
 ## Future Changes(Customization) 
 * You can make few improvements if you want like creating subfolder in folder to more specification of folders
-* You can add your own type of folder and can set up which files will be stored there.
+* You can add your custom named folder and can set up which files will be stored there.
 
 **DO NOT RUN THE FILE** until it is moved to the proper directory because it automatically create few folders in that directory even tho there are no files in folder.
