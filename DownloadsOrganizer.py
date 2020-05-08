@@ -5,7 +5,7 @@ Created on Fri May  8 18:58:00 2020
 @author: HAckeRSHIL
 
 If you want any changes or suggestion ping me on. Any Feedback will be appericiated.
-LinkedIn: HAckeRSHIL
+LinkedIn: Harshil Patel
 Instagram : HAckeRSHIL
 Twitter : HAckeRSHIL
 GitHub : HAckeRSHIL
