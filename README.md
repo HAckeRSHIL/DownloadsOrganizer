@@ -11,6 +11,9 @@ Run the .py file
 
 3. The .py file also be classified into Developer files --> .py (So you can find in that folder)
 
+The files will be classified into these folders. (You can customize this by changing the source code)
+<img src="image.png"></img>
+
 ## Future Changes(Customization) 
 * You can make few improvements if you want like creating subfolder in folder to more specification of folders
 * You can add your own type of folder and can set up which files will be stored there.
